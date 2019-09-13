@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Angel Mobile App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
+	 <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	<!-- BS CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- responsice css -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <!-- animation css -->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <!-- icon css -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body >
+	<!-- Main Navigation Start -->
+  <header class="header border-bottom fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" height="25"> <b>Remote Job App</b></a>
+        <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span class="lnr lnr-menu"></span>
+          </span>
+        </button>
+        <span class="lnr lnr-magnifier"></span>
+      </div>
+    </nav>
+  </header> 
+
+<main>
+  <section class="login-form">
+    <div class="d-flex align-content-center flex-wrap login-form-inner">
+      <div class="w-100 px-4 m-auto login-form-main">
+        <form action="profile.html">
+          <div class="form-group mb-4">
+            <input type="email" class="form-control rounded-btn" id="email">
+            <label for="email">Email address</label>
+          </div>
+          <div class="form-group mb-4">
+            <input type="password" class="form-control rounded-btn" id="pwd">
+            <label for="pwd">Password</label>
+          </div>
+          <button type="submit" class="btn btn-success btn-block rounded-btn mb-3 shadow">Log in</button>
+          <p class="text-center font-weight-bold">Other Sign in Methods</p>
+          <button type="submit" class="btn btn-linkedin btn-block rounded-btn mb-3 shadow"><i class="fa fa-linkedin"></i> Sign in with linkedIn</button>
+          <button type="submit" class="btn btn-google btn-block rounded-btn mb-3 shadow"><i class="fa fa-google-plus"></i> Sign in with Google+</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer fixed-bottom border-top">
+  <div class="row m-0">
+    <a href="job.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-briefcase"></span>
+      <p class="w-100 d-block text-uppercase">Job</p>
+    </a>
+    <a href="favourite.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-heart"></span>
+      <p class="w-100 d-block text-uppercase">Favourite</p>
+    </a>
+    <a href="setting.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-cog"></span>
+      <p class="w-100 d-block text-uppercase">Setting</p>
+    </a>
+  </div>
+</footer>
+<!-- Javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript">
+  var wow = new WOW({
+      boxClass: 'wow', // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset: 0, // distance to the element when triggering the animation (default is 0)
+      mobile: true, // trigger animations on mobile devices (default is true)
+      live: true, // act on asynchronously loaded content (default is true)
+      callback: function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null // optional scroll container selector, otherwise use window
+  });
+  wow.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Angel Mobile App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
+	 <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	<!-- BS CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- responsice css -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <!-- animation css -->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <!-- icon css -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body style="background: #f7f7f7;">
+	<!-- Main Navigation Start -->
+  <header class="header border-bottom fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" height="25"> <b>Remote Job App</b></a>
+        <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span class="lnr lnr-menu"></span>
+          </span>
+        </button>
+        <span class="lnr lnr-magnifier"></span>
+      </div>
+    </nav>
+  </header> 
+
+<main>
+  <section class="page-title">
+    <a href="job-details.html"><span class="lnr lnr-chevron-left"></span></a>
+    <h6 class="mb-0">Job Details</h6>
+    <a href="favourite.html"><span class="lnr lnr-chevron-right"></span></a>
+  </section>
+  <section class="job-details">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          
+          <div class="shadow-custom border-0 card mt-3 p-3">
+            <div class="row">
+              <div class="col-3">
+                <img class="rounded-circle fluid w-100" src="images/user.jpg">
+              </div>
+              <div class="col-5 pl-0">
+                <h6>Product Manager</h6>
+                <p class="mb-0"><b>Invision</b></p>
+                <p class="mb-0">Anywhere</p>
+                <p class="mb-0">Fully Remote</p>
+              </div>
+              <div class="col-4 text-right">Yesterday</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col">
+               <b class="mb-3 d-block">Description</b>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+               <p class="mb-0"><b>About Invision</b></p>
+               <p>Invision provides a software platform that helps developers build, deploy and manage code on connected devices. We brought Docker to embedded GNU/Linux devices in 2013 and have been building our IoT toolkit ever since.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+               <p class="mb-0"><b>Responsibilities</b></p>
+               <ul>
+                 <li>Identify and nurture leads from our user base, inbound requests, events, etc.</li>
+                 <li>Engage with potential customers and guide them through their evaluation of Invision by providing demonstrations, answering technical questions, and explaining how we can address their specific needs.</li>
+               </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+               <p class="mb-0"><b>Requirements</b></p>
+               <p>Ability to understand and empathize with customer needs and requirements, and work directly with customers to address those needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center my-2">
+                <button type="button" class="btn btn-success rounded-btn px-3 py-2 shadow-custom mr-2">Apply Now</button>
+                <button type="button" class="btn btn-primary rounded-btn px-3 py-2 shadow-custom">Add to Favourite</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer fixed-bottom border-top">
+  <div class="row m-0">
+    <a href="job.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-briefcase"></span>
+      <p class="w-100 d-block text-uppercase">Job</p>
+    </a>
+    <a href="favourite.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-heart"></span>
+      <p class="w-100 d-block text-uppercase">Favourite</p>
+    </a>
+    <a href="setting.html" class="col text-center px-0 py-2 footer-button">
+      <span class="lnr lnr-cog"></span>
+      <p class="w-100 d-block text-uppercase">Setting</p>
+    </a>
+  </div>
+</footer>
+<!-- Javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript">
+  var wow = new WOW({
+      boxClass: 'wow', // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset: 0, // distance to the element when triggering the animation (default is 0)
+      mobile: true, // trigger animations on mobile devices (default is true)
+      live: true, // act on asynchronously loaded content (default is true)
+      callback: function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null // optional scroll container selector, otherwise use window
+  });
+  wow.init();
+</script>
+</body>
+</html>

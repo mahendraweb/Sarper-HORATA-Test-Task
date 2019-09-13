@@ -1,0 +1,245 @@
+Global stylesheet*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #1D1D1D;
+	font-weight: 600;
+}
+
+h1{
+	font-size: 22px;
+}
+
+h2{
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	font-size: 14px;
+}
+p {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+}
+.rounded-btn{
+	border-radius: 50px;
+}
+
+.btn-google{
+	background-color: #D64C3F;
+	border-color: #D64C3F;
+	color: #fff;
+}
+.btn-linkedin{
+	background-color: #0078B1;
+	border-color: #0078B1;
+	color: #fff;
+}
+.shadow-custom {
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+}
+
+main{
+	margin: 60px 0;
+}
+
+.page-title {
+  background: #2c95ff;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  position: sticky;
+  top: 60px;
+  z-index: 1080;
+}
+.page-title a{
+  color: #fff;
+  cursor: pointer;
+}
+.page-title a span{
+  font-weight: 600;
+}
+
+.page-title h6{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	text-align: center;
+}
+
+/*navbar*/
+header{
+	height: 60px;
+	background: #fff;
+}
+button.navbar-toggler:active, 
+button.navbar-toggler:focus {
+  outline: 0;
+  border: 0;
+}
+.navbar-toggler .navbar-toggler-icon .lnr{
+	color: #3196ff;
+	font-weight: 600;
+	vertical-align: -7px;
+}
+/*/navbar*/
+
+
+/*login*/
+.login-form .login-form-inner {
+	height: calc(100vh - 120px)
+}
+
+.login-form .login-form-inner .login-form-main{
+	width: 100%;
+	max-width: 320px;
+}
+
+.login-form .form-group{
+	position: relative;
+}
+
+.login-form .form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #8a8d91;
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  display: block;
+}
+
+.login-form label,
+.login-form .form-group input:focus + label, 
+.login-form .form-group input:active + label{
+    transform: translate3d(-5px, -30px, 100px);
+    transition: all ease-in-out 0.3s;
+    font-size: 12px;
+}
+/*.login-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #8a8d91;
+}*/
+/*/login*/
+
+/*sign-up*/
+.signup-form .signup-form-inner {
+	height: calc(100vh - 180px)
+}
+
+.signup-form .signup-form-inner .signup-form-main{
+	width: 100%;
+	max-width: 320px;
+}
+
+.signup-form .form-group{
+	position: relative;
+}
+
+.signup-form .form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #8a8d91;
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  display: block;
+}
+
+
+.already-registered a{
+	color: #3196ff;
+	cursor: pointer;
+}
+/*/sign-up*/
+
+
+/*index css*/
+.btn.btn-enter {
+  background: #2c95ff;
+  border-radius: 150px;
+  width: 60px;
+  height: 60px;
+}
+
+.btn.btn-enter span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 45px;
+}
+.main-body{
+	background-image: url('../images/flashscreen.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+/*/index css*/
+
+/*profile page*/
+.profile .media img {
+  max-width: 60px;
+}
+/*/profile page*/
+
+/*favourite page*/
+.favourite .job-card {
+  color: inherit;
+}
+/*/favourite page*/
+
+/*job-details page*/
+
+.job-details p + ul li {
+  font-size: 12px;
+}
+/*/job-details page*/
+
+
+/*footer css*/
+footer{
+	background: #fff;
+	/*height: 60px;*/
+}
+footer.footer a.footer-button  {
+  color: #8a8d91;
+}
+footer.footer a.footer-button span {
+  font-size: 16px;
+  font-weight: 600;
+}
+footer.footer a.footer-button p {
+  font-size: 10px;
+  margin: 0;
+  font-weight: 800;
+}
+
+footer.footer a.footer-button.active span,
+footer.footer a.footer-button.active p,
+footer.footer a.footer-button:hover span,
+footer.footer a.footer-button:hover p{
+	color: #3196ff;
+	transition: all ease-in-out 0.3s;
+}
+
+
+/*/footer css
